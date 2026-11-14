@@ -6,7 +6,7 @@ Materias: Minería de Datos, Machine Learning y Cloud Computing. Informe de avan
     ./run_all.sh            # regenera datos limpios, figuras, resultados e informe
 
 Carpetas: `data/` (CSV original y limpio) · `src/` (scripts numerados 01..10) · `api/` (Lambda en Python puro + `model/model.json`) ·
-`terraform/` (infraestructura para el plan gratuito de AWS) · `reports/` (resultados JSON, figuras, informe).
+`terraform/` (infraestructura para el plan gratuito de AWS) · `reports/` (resultados JSON, figuras, informe) · `evidencia/` (salidas y capturas del despliegue en AWS).
 
 ## AWS (plan gratuito)
 Lambda (Function URL) + S3 + CloudWatch Logs + AWS Budgets, todo creado con Terraform. Sin Docker, sin ECR, sin API Gateway, sin VPC.
@@ -17,5 +17,21 @@ Lambda (Function URL) + S3 + CloudWatch Logs + AWS Budgets, todo creado con Terr
     curl <api_url>health
     terraform destroy                              # al terminar
 
-Estado: el HCL se leyó correctamente, pero `terraform validate/plan/apply` NO se han ejecutado, ni se ha probado la URL en AWS.
-`src/scrape_snies.py` tampoco se ha ejecutado ni validado contra el sitio.
+## Estado y evidencia (14 de noviembre de 2026)
+Terraform se ejecutó en una cuenta real de AWS (región `us-east-1`) y la API se probó desde internet. La evidencia está en `evidencia/`:
+
+| Archivo | Qué muestra |
+|---|---|
+| `01_init.txt` | `terraform init` |
+| `02_validate.txt` | `terraform validate`: configuración válida |
+| `03_plan.txt` | `terraform plan`: 14 recursos por crear |
+| `04_apply.txt` | `terraform apply`: 14 recursos creados |
+| `05_outputs.txt` | URL de la API y bucket creados |
+| `06_health.txt` | respuesta de `GET /health` |
+| `07_body.json`, `07_predict.txt` | entrada y respuesta de `POST /predict` |
+| `08_demo_navegador.png` | página de prueba abierta desde el navegador |
+| `09_consola_lambda.png` | función Lambda en la consola de AWS |
+
+`override.tf` solo activa `force_destroy` en el bucket para que `terraform destroy` pueda borrarlo aunque tenga versiones.
+
+Pendiente: `src/scrape_snies.py` todavía no se ha ejecutado ni validado contra el sitio.

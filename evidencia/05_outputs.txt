@@ -1,0 +1,2 @@
+api_url = "https://thebaves72fk4245prg5w62a7m0oqlih.lambda-url.us-east-1.on.aws/"
+artifacts_bucket = "saberpro-risk-artifacts-958280224107"

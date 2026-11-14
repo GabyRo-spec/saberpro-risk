@@ -7,3 +7,5 @@ terraform/.terraform/
 *.tfstate.*
 terraform/terraform.tfvars
 .env
+terraform/build/
+terraform/tfplan

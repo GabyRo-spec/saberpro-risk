@@ -1,0 +1,106 @@
+{
+  "rows_raw": 4645,
+  "cols_raw": 57,
+  "exact_duplicate_rows": 3,
+  "duplicate_ids_remaining": 50,
+  "rows_after_dedup": 4592,
+  "identity_not_verified_removed": 2,
+  "zero_scores_per_module": {
+    "MOD_RAZONA_CUANTITAT_PUNT": 0,
+    "MOD_COMUNI_ESCRITA_PUNT": 174,
+    "MOD_LECTURA_CRITICA_PUNT": 3,
+    "MOD_INGLES_PUNT": 16,
+    "MOD_COMPETEN_CIUDADA_PUNT": 9
+  },
+  "nan_scores_per_module": {
+    "MOD_RAZONA_CUANTITAT_PUNT": 0,
+    "MOD_COMUNI_ESCRITA_PUNT": 20,
+    "MOD_LECTURA_CRITICA_PUNT": 0,
+    "MOD_INGLES_PUNT": 1,
+    "MOD_COMPETEN_CIUDADA_PUNT": 0
+  },
+  "comm_zero_and_missing_level": 174,
+  "rows_removed_invalid_scores": 211,
+  "share_removed_invalid_scores_pct": 4.6,
+  "score_outliers_iqr": {
+    "MOD_RAZONA_CUANTITAT_PUNT": {
+      "lower_fence": 68.5,
+      "upper_fence": 240.5,
+      "n_outliers": 8
+    },
+    "MOD_COMUNI_ESCRITA_PUNT": {
+      "lower_fence": 69.0,
+      "upper_fence": 221.0,
+      "n_outliers": 41
+    },
+    "MOD_LECTURA_CRITICA_PUNT": {
+      "lower_fence": 74.5,
+      "upper_fence": 230.5,
+      "n_outliers": 8
+    },
+    "MOD_INGLES_PUNT": {
+      "lower_fence": 83.5,
+      "upper_fence": 223.5,
+      "n_outliers": 23
+    },
+    "MOD_COMPETEN_CIUDADA_PUNT": {
+      "lower_fence": 64.5,
+      "upper_fence": 236.5,
+      "n_outliers": 7
+    }
+  },
+  "age_summary": {
+    "count": 4379.0,
+    "mean": 26.16,
+    "std": 5.88,
+    "min": 7.0,
+    "25%": 22.0,
+    "50%": 24.0,
+    "75%": 28.0,
+    "max": 64.0
+  },
+  "age_lt_16_set_to_nan": 1,
+  "age_gt_50_kept": 33,
+  "risk_threshold_p25": 136.3,
+  "risk_prevalence_pct": 25.01,
+  "english_b1plus_prevalence_pct": 28.8,
+  "rows_final": 4379,
+  "predictor_missing_pct": {
+    "FAMI_ESTRATOVIVIENDA": 3.61,
+    "FAMI_EDUCACIONPADRE": 2.63,
+    "FAMI_EDUCACIONMADRE": 2.69,
+    "FAMI_TIENEINTERNET": 3.29,
+    "FAMI_TIENECOMPUTADOR": 4.89,
+    "FAMI_TIENEAUTOMOVIL": 6.05,
+    "FAMI_TIENELAVADORA": 5.44,
+    "ESTU_HORASSEMANATRABAJA": 4.06,
+    "ESTU_VALORMATRICULAUNIVERSIDAD": 0.66,
+    "ESTU_PAGOMATRICULABECA": 0.71,
+    "ESTU_PAGOMATRICULACREDITO": 0.69,
+    "ESTU_PAGOMATRICULAPADRES": 0.66,
+    "ESTU_PAGOMATRICULAPROPIO": 0.69
+  },
+  "predictor_missing_by_period_pct": {
+    "20183": 2.85,
+    "20194": 38.46,
+    "20195": 2.48,
+    "20196": 0.0,
+    "20202": 38.46,
+    "20203": 1.55,
+    "20212": 3.1,
+    "20213": 38.46,
+    "20222": 2.85,
+    "20225": 3.81,
+    "20226": 38.46
+  },
+  "constant_columns_after_cleaning": [
+    "ESTU_COD_RESIDE_DEPTO",
+    "ESTU_DEPTO_RESIDE",
+    "ESTU_COD_RESIDE_MCPIO",
+    "ESTU_MCPIO_RESIDE",
+    "ESTU_NIVEL_PRGM_ACADEMICO",
+    "ESTU_PRIVADO_LIBERTAD",
+    "ESTU_ESTUDIANTE",
+    "ESTU_ESTADOINVESTIGACION"
+  ]
+}

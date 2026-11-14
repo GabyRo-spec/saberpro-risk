@@ -1,0 +1,271 @@
+{
+  "module_corr_min": 0.194,
+  "module_corr_max": 0.66,
+  "risk_by_group": {
+    "Stratum": {
+      "Estrato 1": {
+        "risk_pct": 32.3,
+        "n": 350
+      },
+      "Estrato 2": {
+        "risk_pct": 26.0,
+        "n": 2923
+      },
+      "Estrato 3": {
+        "risk_pct": 20.5,
+        "n": 815
+      },
+      "Estrato 4": {
+        "risk_pct": 12.5,
+        "n": 96
+      }
+    },
+    "Mode": {
+      "PRESENCIAL": {
+        "risk_pct": 15.6,
+        "n": 3186
+      },
+      "DISTANCIA": {
+        "risk_pct": 50.9,
+        "n": 863
+      },
+      "DISTANCIA VITUAL": {
+        "risk_pct": 48.5,
+        "n": 330
+      }
+    },
+    "Work hours/wk": {
+      "0": {
+        "risk_pct": 16.7,
+        "n": 657
+      },
+      "Menos de 10 horas": {
+        "risk_pct": 22.7,
+        "n": 740
+      },
+      "Entre 11 y 20 horas": {
+        "risk_pct": 23.7,
+        "n": 1004
+      },
+      "Entre 21 y 30 horas": {
+        "risk_pct": 28.3,
+        "n": 669
+      },
+      "Más de 30 horas": {
+        "risk_pct": 31.1,
+        "n": 1131
+      }
+    },
+    "Internet": {
+      "Si": {
+        "risk_pct": 24.1,
+        "n": 3621
+      },
+      "No": {
+        "risk_pct": 30.9,
+        "n": 614
+      }
+    }
+  },
+  "risk_by_nucleo_top10": {
+    "INGENIERÍA CIVIL Y AFINES": {
+      "risk_pct": 7.9,
+      "n": 356
+    },
+    "INGENIERÍA ELECTRÓNICA, TELECOMUNICACIONES Y AFINES": {
+      "risk_pct": 10.3,
+      "n": 146
+    },
+    "DERECHO Y AFINES": {
+      "risk_pct": 18.0,
+      "n": 338
+    },
+    "INGENIERÍA DE SISTEMAS, TELEMÁTICA Y AFINES": {
+      "risk_pct": 22.8,
+      "n": 167
+    },
+    "INGENIERÍA INDUSTRIAL Y AFINES": {
+      "risk_pct": 28.6,
+      "n": 406
+    },
+    "CONTADURÍA PUBLICA": {
+      "risk_pct": 30.3,
+      "n": 353
+    },
+    "INGENIERÍA AMBIENTAL, SANITARIA Y AFINES": {
+      "risk_pct": 31.0,
+      "n": 303
+    },
+    "ADMINISTRACIÓN": {
+      "risk_pct": 33.8,
+      "n": 701
+    },
+    "EDUCACIÓN": {
+      "risk_pct": 35.3,
+      "n": 346
+    },
+    "PSICOLOGÍA": {
+      "risk_pct": 36.8,
+      "n": 223
+    }
+  },
+  "association_tests": {
+    "Study mode": {
+      "cramers_v": 0.356,
+      "p_value": 1.7e-121
+    },
+    "Field of study": {
+      "cramers_v": 0.268,
+      "p_value": 3.1e-38
+    },
+    "Mother education": {
+      "cramers_v": 0.22,
+      "p_value": 9.08e-39
+    },
+    "Tuition": {
+      "cramers_v": 0.195,
+      "p_value": 6.86e-32
+    },
+    "Father education": {
+      "cramers_v": 0.177,
+      "p_value": 2.34e-23
+    },
+    "Institution origin": {
+      "cramers_v": 0.138,
+      "p_value": 3.08e-17
+    },
+    "Work hours": {
+      "cramers_v": 0.112,
+      "p_value": 8.63e-11
+    },
+    "Stratum": {
+      "cramers_v": 0.093,
+      "p_value": 3.51e-06
+    },
+    "Gender": {
+      "cramers_v": 0.058,
+      "p_value": 0.000114
+    },
+    "Internet": {
+      "cramers_v": 0.056,
+      "p_value": 0.000942
+    },
+    "Computer": {
+      "cramers_v": 0.048,
+      "p_value": 0.00595
+    },
+    "Period": {
+      "cramers_v": 0.042,
+      "p_value": 0.655
+    }
+  },
+  "age_spearman_with_mean": {
+    "rho": -0.405,
+    "p": 1.72e-172
+  },
+  "mean_score_contrast": {
+    "onsite": 156.3,
+    "distance_virtual": 137.5,
+    "stratum1": 146.3,
+    "stratum4": 160.5,
+    "no_work": 159.1,
+    "work_gt30": 146.5,
+    "no_internet": 146.4,
+    "internet": 151.9
+  },
+  "period_counts": {
+    "20183": 730,
+    "20194": 6,
+    "20195": 912,
+    "20196": 1,
+    "20202": 1,
+    "20203": 896,
+    "20212": 976,
+    "20213": 4,
+    "20222": 354,
+    "20225": 497,
+    "20226": 2
+  },
+  "period_risk_pct": {
+    "20183": 22.5,
+    "20194": 33.3,
+    "20195": 23.5,
+    "20196": 0.0,
+    "20202": 0.0,
+    "20203": 26.0,
+    "20212": 26.8,
+    "20213": 25.0,
+    "20222": 25.4,
+    "20225": 26.0,
+    "20226": 0.0
+  },
+  "mode_vs_work_note": {
+    "pct_work_gt30_by_mode": {
+      "DISTANCIA": 39.6,
+      "DISTANCIA VITUAL": 53.9,
+      "PRESENCIAL": 19.2
+    }
+  },
+  "describe": {
+    "MOD_RAZONA_CUANTITAT_PUNT": {
+      "count": 4379.0,
+      "mean": 154.58,
+      "std": 30.57,
+      "min": 70.0,
+      "25%": 133.0,
+      "50%": 155.0,
+      "75%": 176.0,
+      "max": 300.0
+    },
+    "MOD_COMUNI_ESCRITA_PUNT": {
+      "count": 4379.0,
+      "mean": 144.47,
+      "std": 29.93,
+      "min": 49.0,
+      "25%": 126.0,
+      "50%": 141.0,
+      "75%": 164.0,
+      "max": 300.0
+    },
+    "MOD_LECTURA_CRITICA_PUNT": {
+      "count": 4379.0,
+      "mean": 152.6,
+      "std": 28.37,
+      "min": 58.0,
+      "25%": 133.0,
+      "50%": 153.0,
+      "75%": 172.0,
+      "max": 300.0
+    },
+    "MOD_INGLES_PUNT": {
+      "count": 4379.0,
+      "mean": 154.08,
+      "std": 25.82,
+      "min": 78.0,
+      "25%": 136.0,
+      "50%": 153.0,
+      "75%": 171.0,
+      "max": 300.0
+    },
+    "MOD_COMPETEN_CIUDADA_PUNT": {
+      "count": 4379.0,
+      "mean": 149.98,
+      "std": 30.5,
+      "min": 62.0,
+      "25%": 129.0,
+      "50%": 151.0,
+      "75%": 172.0,
+      "max": 300.0
+    },
+    "score_mean5": {
+      "count": 4379.0,
+      "mean": 151.14,
+      "std": 20.98,
+      "min": 87.0,
+      "25%": 136.3,
+      "50%": 150.8,
+      "75%": 165.6,
+      "max": 251.0
+    }
+  }
+}

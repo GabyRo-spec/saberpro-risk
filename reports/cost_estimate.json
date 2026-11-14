@@ -1,0 +1,30 @@
+{
+  "Piloto": {
+    "requests": 5000,
+    "gb_seconds": 500.0,
+    "inside_free": true,
+    "with_free_tier": 0.0,
+    "without_free_tier": 0.01
+  },
+  "Uso por el programa": {
+    "requests": 50000,
+    "gb_seconds": 5000.0,
+    "inside_free": true,
+    "with_free_tier": 0.0,
+    "without_free_tier": 0.1
+  },
+  "Uso institucional": {
+    "requests": 500000,
+    "gb_seconds": 50000.0,
+    "inside_free": true,
+    "with_free_tier": 0.0,
+    "without_free_tier": 0.94
+  },
+  "Prueba de estr\u00e9s": {
+    "requests": 5000000,
+    "gb_seconds": 500000.0,
+    "inside_free": false,
+    "with_free_tier": 2.47,
+    "without_free_tier": 9.34
+  }
+}

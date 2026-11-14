@@ -1,0 +1,88 @@
+{
+  "pca": {
+    "n_features": 17,
+    "components_80": 11,
+    "components_90": 14,
+    "var_2": 0.3114397734537242
+  },
+  "ari_kmeans_vs_hier": 0.36684116395788674,
+  "clustering_comparison": [
+    {
+      "method": "K-Means (k=4)",
+      "clusters": 4,
+      "noise_pct": 0.0,
+      "silhouette": 0.11665267359140293,
+      "davies_bouldin": 2.2195750771487313,
+      "risk_range_pct": [
+        17.79252110977081,
+        15.284787310742608,
+        32.5503355704698,
+        47.39382239382239
+      ]
+    },
+    {
+      "method": "Jerárquico Ward (k=4)",
+      "clusters": 4,
+      "noise_pct": 0.0,
+      "silhouette": 0.07677469574511929,
+      "davies_bouldin": 2.638313444543501,
+      "risk_range_pct": [
+        29.292929292929294,
+        19.43254817987152,
+        47.40834386852086,
+        14.995131450827653
+      ]
+    },
+    {
+      "method": "DBSCAN (eps=2.74, min_samples=30)",
+      "clusters": 3,
+      "noise_pct": 27.1523178807947,
+      "silhouette": 0.09547083528554198,
+      "davies_bouldin": 1.601503895668123,
+      "risk_range_pct": [
+        21.015467383994622,
+        45.57823129251701,
+        17.391304347826086
+      ],
+      "eps_quantile": 0.5
+    },
+    {
+      "method": "DBSCAN (eps=3.19, min_samples=30)",
+      "clusters": 2,
+      "noise_pct": 12.034711121260562,
+      "silhouette": 0.21852540867052805,
+      "davies_bouldin": 1.4706225049638788,
+      "risk_range_pct": [
+        21.895787139689578,
+        46.72131147540984
+      ],
+      "eps_quantile": 0.7
+    },
+    {
+      "method": "DBSCAN (eps=3.66, min_samples=30)",
+      "clusters": 3,
+      "noise_pct": 3.4482758620689653,
+      "silhouette": 0.20900826045975388,
+      "davies_bouldin": 1.6003513336954418,
+      "risk_range_pct": [
+        22.34099412079102,
+        31.28205128205128,
+        46.735395189003434
+      ],
+      "eps_quantile": 0.85
+    },
+    {
+      "method": "DBSCAN (eps=4.24, min_samples=30)",
+      "clusters": 1,
+      "noise_pct": 0.5252340717058689,
+      "eps_quantile": 0.95
+    }
+  ],
+  "apriori_vs_fpgrowth": {
+    "itemsets_apriori": 285,
+    "itemsets_fpgrowth": 285,
+    "same_itemsets": true,
+    "seconds_apriori": 0.006,
+    "seconds_fpgrowth": 0.02
+  }
+}

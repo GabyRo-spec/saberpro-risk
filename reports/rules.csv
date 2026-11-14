@@ -1,0 +1,29 @@
+antecedents,support,confidence,lift
+Mode=Distance/Virtual & MotherEdu<=Primary & Stratum<=2,0.059,0.587,2.346
+Female & Mode=Distance/Virtual & MotherEdu<=Primary,0.048,0.585,2.339
+Mode=Distance/Virtual & MotherEdu<=Primary,0.067,0.571,2.282
+Mode=Distance/Virtual & Stratum<=2 & Tuition<1M,0.039,0.545,2.178
+Age>=30 & MotherEdu<=Primary & Stratum<=2,0.038,0.544,2.174
+Female & Mode=Distance/Virtual & Private(Fund./Corp.),0.041,0.542,2.167
+Mode=Distance/Virtual & Private(Fund./Corp.) & Stratum<=2,0.044,0.539,2.155
+Age>=30 & Mode=Distance/Virtual & Stratum<=2,0.05,0.538,2.153
+Female & Mode=Distance/Virtual & Stratum<=2,0.078,0.533,2.13
+Female & Mode=Distance/Virtual & Tuition<1M,0.033,0.532,2.126
+Age>=30 & Female & Mode=Distance/Virtual,0.041,0.531,2.125
+Mode=Distance/Virtual & Private(Fund./Corp.),0.058,0.527,2.108
+Age>=30 & MotherEdu<=Primary,0.047,0.526,2.103
+Age>=30 & Female & Stratum<=2,0.038,0.524,2.095
+Mode=Distance/Virtual & Stratum<=2,0.111,0.518,2.07
+Female & Mode=Distance/Virtual,0.096,0.517,2.069
+Age>=30 & Mode=Distance/Virtual,0.065,0.514,2.054
+Mode=Distance/Virtual,0.137,0.502,2.008
+Age>=30 & Stratum<=2,0.065,0.495,1.979
+Age>=30 & Female,0.05,0.494,1.977
+Age>=30 & Private(Fund./Corp.),0.039,0.484,1.937
+Age>=30,0.085,0.47,1.881
+MotherEdu<=Primary & Private(Fund./Corp.),0.043,0.438,1.751
+MotherEdu<=Primary & Work>30h,0.04,0.425,1.701
+Female & MotherEdu<=Primary,0.063,0.395,1.581
+MotherEdu<=Primary,0.097,0.371,1.485
+Private(Fund./Corp.) & Stratum<=2 & Work>30h,0.031,0.359,1.435
+Female & Private(Fund./Corp.) & Stratum<=2,0.056,0.352,1.406

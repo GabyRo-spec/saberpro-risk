@@ -34,4 +34,4 @@ Terraform se ejecutó en una cuenta real de AWS (región `us-east-1`) y la API s
 
 `override.tf` solo activa `force_destroy` en el bucket para que `terraform destroy` pueda borrarlo aunque tenga versiones.
 
-Pendiente: `src/scrape_snies.py` todavía no se ha ejecutado ni validado contra el sitio.
+Completado: cruce de acreditación oficial del SNIES (`scraping_snies.ipynb` y `saber_pro_con_acreditacion.csv`) como análisis descriptivo en la Sección IV-G.
